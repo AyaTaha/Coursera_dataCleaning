@@ -1,6 +1,6 @@
 run_analysis <- function() {
         
-         setwd("./UCI HAR Dataset")
+        #setwd("./UCI HAR Dataset")
         # Read the file features.txt which contains the labels of all columns
         labels <- read.table("features.txt")
         # Extract the column names which is the second column
@@ -52,7 +52,7 @@ run_analysis <- function() {
         
         # summarized data , get the mean for each column grouped by activity and subject
         summarized_data <- merged_data %>% select(-type)%>%group_by(activity , subject)%>% summarize_each( funs(mean))
-        write.table(summarized_data , "Data_tidy.txt" , col.name=FALSE)
+        write.table(summarized_data , "Data_tidy.txt" , row.name=FALSE)
         
         # View the tidy datasets
         View(merged_data)
