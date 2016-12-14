@@ -5,20 +5,20 @@
 
 * activity
 	It shows the activity names
-		1: WALKING
-		2: WALKING_UPSTAIRS
-		3: WALKING_DOWNSTAIRS
-		4: SITTING
-		5: STANDING
-		6: LAYING
+		*1: WALKING
+		*2: WALKING_UPSTAIRS
+		*3: WALKING_DOWNSTAIRS
+		*4: SITTING
+		*5: STANDING
+		*6: LAYING
 		
 * subject
 	Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
 * type
-		it shows the type of the data which is gathered from
-		1: Train data
-		2: Test Data
+		It shows the type of the data which is gathered from
+		*1: Train data
+		*2: Test Data
 * tBodyAcc-mean()-X
 * tBodyAcc-mean()-Y
 * tBodyAcc-mean()-Z
