@@ -3,7 +3,7 @@
 ###List of Columns
 
 
-* activity
+* activity :
 	It shows the activity names
 		* 1: WALKING
 		* 2: WALKING_UPSTAIRS
@@ -12,10 +12,10 @@
 		* 5: STANDING
 		* 6: LAYING
 		
-* subject
+* subject :
 	Each row identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 
-* type
+* type : 
 		It shows the type of the data which is gathered from
 		*1: Train data
 		*2: Test Data
