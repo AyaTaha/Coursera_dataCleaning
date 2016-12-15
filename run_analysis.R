@@ -1,6 +1,6 @@
 run_analysis <- function() {
         
-        #setwd("./UCI HAR Dataset")
+        setwd("./UCI HAR Dataset")
         # Read the file features.txt which contains the labels of all columns
         labels <- read.table("features.txt")
         # Extract the column names which is the second column
